@@ -1,0 +1,79 @@
+2021-12-15 20:02:36,056 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Starting LittleCarrotsAuthenticationServiceApplicationTests on SHEIKH-786 with PID 15240 (started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsAuthenticationService)
+2021-12-15 20:02:36,058 DEBUG com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-12-15 20:02:36,059 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] The following profiles are active: prod
+2021-12-15 20:02:36,090 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@64bce832
+2021-12-15 20:02:41,857 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2021-12-15 20:02:43,527 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:02:43,610 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:02:43,656 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:02:43,670 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:02:43,976 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Started LittleCarrotsAuthenticationServiceApplicationTests in 8.163 seconds (JVM running for 9.095)
+2021-12-15 20:02:44,114 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@64bce832, started on Wed Dec 15 20:02:36 IST 2021
+2021-12-15 20:07:10,892 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Starting LittleCarrotsAuthenticationServiceApplicationTests on SHEIKH-786 with PID 524 (started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsAuthenticationService)
+2021-12-15 20:07:10,894 DEBUG com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-12-15 20:07:10,894 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] The following profiles are active: prod
+2021-12-15 20:07:10,926 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@64bce832
+2021-12-15 20:07:15,419 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2021-12-15 20:07:17,004 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:07:17,101 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:07:17,152 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:07:17,172 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:07:17,574 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Started LittleCarrotsAuthenticationServiceApplicationTests in 6.913 seconds (JVM running for 7.775)
+2021-12-15 20:07:17,733 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@64bce832, started on Wed Dec 15 20:07:10 IST 2021
+2021-12-15 20:07:32,081 INFO com.lc.sk.auth.MyAuthenticationApp [main] Starting MyAuthenticationApp vMVP-V2.0.0 on SHEIKH-786 with PID 6192 (E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsAuthenticationService\target\LittleCarrotsAuthenticationService-MVP-V2.0.0.jar started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsAuthenticationService)
+2021-12-15 20:07:32,085 DEBUG com.lc.sk.auth.MyAuthenticationApp [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-12-15 20:07:32,085 INFO com.lc.sk.auth.MyAuthenticationApp [main] The following profiles are active: prod
+2021-12-15 20:07:36,632 DEBUG org.springframework.web.context.ContextLoader [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-12-15 20:07:36,633 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 4491 ms
+2021-12-15 20:07:40,745 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2021-12-15 20:07:42,805 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:07:43,009 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:07:43,115 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:07:43,146 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:07:44,075 INFO com.lc.sk.auth.MyAuthenticationApp [main] Started MyAuthenticationApp in 12.494 seconds (JVM running for 13.134)
+2021-12-15 20:12:00,158 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] Initializing Servlet 'dispatcherServlet'
+2021-12-15 20:12:00,158 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] Detected StandardServletMultipartResolver
+2021-12-15 20:12:00,205 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-12-15 20:12:00,205 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] Completed initialization in 47 ms
+2021-12-15 20:12:00,237 DEBUG com.lc.sk.auth.filters.PreAuthTokenHeaderFilter [https-jsse-nio-8282-exec-5] Checking secure context token: null
+2021-12-15 20:12:00,237 DEBUG com.lc.sk.auth.filters.PreAuthTokenHeaderFilter [https-jsse-nio-8282-exec-5] preAuthenticatedPrincipal = LRtt3I-ARtlos-51TCOi-er1212-1819TE-Tlcr92-01820L-Sa2015, trying to authenticate
+2021-12-15 20:12:00,237 DEBUG com.lc.sk.auth.filters.PreAuthTokenHeaderFilter [https-jsse-nio-8282-exec-5] Authentication success: org.springframework.security.web.authentication.preauth.PreAuthenticatedAuthenticationToken@4826899b: Principal: LRtt3I-ARtlos-51TCOi-er1212-1819TE-Tlcr92-01820L-Sa2015; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@957e: RemoteIpAddress: 127.0.0.1; SessionId: null; Not granted any authorities
+2021-12-15 20:12:00,252 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] GET "/user", parameters={}
+2021-12-15 20:12:00,268 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8282-exec-5] Mapped to com.lc.sk.auth.service.LilCustomerService#getAllUsers()
+2021-12-15 20:12:00,990 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8282-exec-5] Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json]
+2021-12-15 20:12:01,037 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8282-exec-5] Writing [[LilCustomer [userid=66, uniqueid=115999002799447364241, email=shaikmastanvali41@gmail.com, firstnam (truncated)...]
+2021-12-15 20:12:01,147 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8282-exec-5] Completed 202 ACCEPTED
+2022-02-16 11:21:46,970 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Starting LittleCarrotsAuthenticationServiceApplicationTests on SHEIKH-786 with PID 4980 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsAuthenticationService)
+2022-02-16 11:21:46,971 DEBUG com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:21:46,971 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:21:46,994 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@64bce832
+2022-02-16 11:21:50,041 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2022-02-16 11:21:51,402 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:21:51,493 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:21:51,538 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:21:51,553 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:21:51,894 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Started LittleCarrotsAuthenticationServiceApplicationTests in 5.17 seconds (JVM running for 6.2)
+2022-02-16 11:21:52,003 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@64bce832, started on Wed Feb 16 11:21:46 IST 2022
+2022-02-16 11:33:25,176 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Starting LittleCarrotsAuthenticationServiceApplicationTests on SHEIKH-786 with PID 14528 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsAuthenticationService)
+2022-02-16 11:33:25,179 DEBUG com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:33:25,180 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:33:25,224 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@64bce832
+2022-02-16 11:33:30,272 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2022-02-16 11:33:34,275 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:33:34,464 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:33:34,615 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:33:34,748 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:33:35,993 INFO com.lc.sk.auth.LittleCarrotsAuthenticationServiceApplicationTests [main] Started LittleCarrotsAuthenticationServiceApplicationTests in 11.262 seconds (JVM running for 12.474)
+2022-02-16 11:33:36,729 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@64bce832, started on Wed Feb 16 11:33:25 IST 2022
+2022-02-16 11:34:49,993 INFO com.lc.sk.auth.MyAuthenticationApp [main] Starting MyAuthenticationApp vMVP-V2.0.0 on SHEIKH-786 with PID 5636 (D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsAuthenticationService\target\LittleCarrotsAuthenticationService-MVP-V2.0.0.jar started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsAuthenticationService)
+2022-02-16 11:34:49,996 DEBUG com.lc.sk.auth.MyAuthenticationApp [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:34:49,996 INFO com.lc.sk.auth.MyAuthenticationApp [main] The following profiles are active: prod
+2022-02-16 11:34:51,938 ERROR org.apache.coyote.http11.Http11NioProtocol [main] The upgrade handler [org.apache.coyote.http2.Http2Protocol] for [h2] only supports upgrade via ALPN but has been configured for the ["https-jsse-nio-8282"] connector that does not support ALPN.
+2022-02-16 11:34:51,992 DEBUG org.springframework.web.context.ContextLoader [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-16 11:34:51,992 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 1952 ms
+2022-02-16 11:34:53,332 DEBUG com.lc.sk.auth.config.AsyncConfiguration [main] Creating Async Task Executor
+2022-02-16 11:34:54,672 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:34:54,776 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 53 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:34:54,832 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:34:54,847 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:34:55,675 INFO com.lc.sk.auth.MyAuthenticationApp [main] Started MyAuthenticationApp in 5.992 seconds (JVM running for 6.434)

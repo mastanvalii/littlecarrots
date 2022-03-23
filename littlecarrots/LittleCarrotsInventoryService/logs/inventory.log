@@ -1,0 +1,117 @@
+2021-12-15 20:08:48,921 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Starting LittleCarrotsInventoryServiceApplicationTests on SHEIKH-786 with PID 18520 (started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsInventoryService)
+2021-12-15 20:08:48,922 DEBUG com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-12-15 20:08:48,922 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] The following profiles are active: prod
+2021-12-15 20:08:48,948 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77128536
+2021-12-15 20:08:55,463 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started..------
+2021-12-15 20:08:56,198 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 1199 Products in Cache
+2021-12-15 20:08:56,199 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete....
+2021-12-15 20:08:56,199 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started for Client System..------
+2021-12-15 20:08:56,297 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 663 Products in Cache for client
+2021-12-15 20:08:56,297 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete for client system....
+2021-12-15 20:09:00,824 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:09:01,233 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 186 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:09:01,626 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:09:01,700 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:09:03,576 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Started LittleCarrotsInventoryServiceApplicationTests in 14.918 seconds (JVM running for 15.988)
+2021-12-15 20:09:03,576 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started..------
+2021-12-15 20:09:04,371 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@77128536, started on Wed Dec 15 20:08:48 IST 2021
+2021-12-15 20:09:04,556 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 1199 Products in Cache
+2021-12-15 20:09:04,556 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete....
+2021-12-15 20:09:04,557 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started for Client System..------
+2021-12-15 20:09:04,578 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'entityManagerFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:617)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:378)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:168)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:150)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy122.getForCache(Unknown Source)
+	at com.lc.sk.inventory.cache.ProductFullCache.getAllProductDetails(ProductFullCache.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-02-16 11:22:17,798 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Starting LittleCarrotsInventoryServiceApplicationTests on SHEIKH-786 with PID 5392 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventoryService)
+2022-02-16 11:22:17,801 DEBUG com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:22:17,802 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:22:17,863 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77128536
+2022-02-16 11:22:26,403 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started..------
+2022-02-16 11:22:27,165 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 1222 Products in Cache
+2022-02-16 11:22:27,165 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete....
+2022-02-16 11:22:27,165 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started for Client System..------
+2022-02-16 11:22:27,281 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 678 Products in Cache for client
+2022-02-16 11:22:27,281 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete for client system....
+2022-02-16 11:22:31,357 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:22:31,530 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 186 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:22:31,623 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:22:31,647 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:22:32,191 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started..------
+2022-02-16 11:22:32,199 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Started LittleCarrotsInventoryServiceApplicationTests in 15.008 seconds (JVM running for 16.929)
+2022-02-16 11:22:32,317 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 1222 Products in Cache
+2022-02-16 11:22:32,318 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete....
+2022-02-16 11:22:32,318 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started for Client System..------
+2022-02-16 11:22:32,535 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 678 Products in Cache for client
+2022-02-16 11:22:32,535 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete for client system....
+2022-02-16 11:22:32,718 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@77128536, started on Wed Feb 16 11:22:17 IST 2022
+2022-02-16 11:33:42,814 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Starting LittleCarrotsInventoryServiceApplicationTests on SHEIKH-786 with PID 8208 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventoryService)
+2022-02-16 11:33:42,817 DEBUG com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:33:42,818 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:33:42,928 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77128536
+2022-02-16 11:33:50,480 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started..------
+2022-02-16 11:33:51,185 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 1222 Products in Cache
+2022-02-16 11:33:51,185 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete....
+2022-02-16 11:33:51,185 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started for Client System..------
+2022-02-16 11:33:51,282 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 678 Products in Cache for client
+2022-02-16 11:33:51,282 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete for client system....
+2022-02-16 11:33:53,857 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:33:54,077 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 186 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:33:54,167 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:33:54,192 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:33:54,849 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplicationTests [main] Started LittleCarrotsInventoryServiceApplicationTests in 12.903 seconds (JVM running for 14.672)
+2022-02-16 11:33:54,853 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started..------
+2022-02-16 11:33:55,001 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 1222 Products in Cache
+2022-02-16 11:33:55,010 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete....
+2022-02-16 11:33:55,010 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started for Client System..------
+2022-02-16 11:33:55,139 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@77128536, started on Wed Feb 16 11:33:42 IST 2022
+2022-02-16 11:33:55,179 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 678 Products in Cache for client
+2022-02-16 11:33:55,180 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete for client system....
+2022-02-16 11:35:14,861 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplication [main] Starting LittleCarrotsInventoryServiceApplication vMVP-V2.0.0 on SHEIKH-786 with PID 5336 (D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventoryService\target\LittleCarrotsInventoryService-MVP-V2.0.0.jar started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventoryService)
+2022-02-16 11:35:14,863 DEBUG com.lc.sk.inventory.LittleCarrotsInventoryServiceApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-02-16 11:35:14,863 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplication [main] The following profiles are active: prod
+2022-02-16 11:35:17,738 ERROR org.apache.coyote.http11.Http11NioProtocol [main] The upgrade handler [org.apache.coyote.http2.Http2Protocol] for [h2] only supports upgrade via ALPN but has been configured for the ["https-jsse-nio-8383"] connector that does not support ALPN.
+2022-02-16 11:35:17,797 DEBUG org.springframework.web.context.ContextLoader [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-16 11:35:17,797 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2862 ms
+2022-02-16 11:35:19,588 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started..------
+2022-02-16 11:35:19,999 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 1222 Products in Cache
+2022-02-16 11:35:20,000 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete....
+2022-02-16 11:35:20,000 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ---Inventory cache started for Client System..------
+2022-02-16 11:35:20,045 INFO com.lc.sk.inventory.cache.ProductFullCache [main] 678 Products in Cache for client
+2022-02-16 11:35:20,045 INFO com.lc.sk.inventory.cache.ProductFullCache [main] ------Inventory cache intialization complete for client system....
+2022-02-16 11:35:21,552 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:35:21,658 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 186 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:35:21,728 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:35:21,745 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:35:22,039 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started..------
+2022-02-16 11:35:22,120 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 1222 Products in Cache
+2022-02-16 11:35:22,120 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete....
+2022-02-16 11:35:22,120 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ---Inventory cache started for Client System..------
+2022-02-16 11:35:22,166 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] 678 Products in Cache for client
+2022-02-16 11:35:22,166 INFO com.lc.sk.inventory.cache.ProductFullCache [scheduling-1] ------Inventory cache intialization complete for client system....
+2022-02-16 11:35:22,529 INFO com.lc.sk.inventory.LittleCarrotsInventoryServiceApplication [main] Started LittleCarrotsInventoryServiceApplication in 8.218 seconds (JVM running for 8.941)

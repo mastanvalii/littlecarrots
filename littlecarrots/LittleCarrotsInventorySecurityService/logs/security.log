@@ -1,0 +1,398 @@
+2021-12-15 20:11:49,889 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Starting LittleCarrotsInventorySecurityServiceApplicationTests on SHEIKH-786 with PID 2508 (started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsInventorySecurityService)
+2021-12-15 20:11:49,891 DEBUG com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2021-12-15 20:11:49,891 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] The following profiles are active: prod
+2021-12-15 20:11:49,921 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31dadd46
+2021-12-15 20:11:51,994 DEBUG com.zaxxer.hikari.HikariConfig [main] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@42a57993
+2021-12-15 20:11:52,193 DEBUG com.zaxxer.hikari.HikariConfig [main] HikariPool-1 - configuration:
+2021-12-15 20:11:52,195 DEBUG com.zaxxer.hikari.HikariConfig [main] allowPoolSuspension.............false
+2021-12-15 20:11:52,195 DEBUG com.zaxxer.hikari.HikariConfig [main] autoCommit......................true
+2021-12-15 20:11:52,195 DEBUG com.zaxxer.hikari.HikariConfig [main] catalog.........................none
+2021-12-15 20:11:52,195 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionInitSql...............none
+2021-12-15 20:11:52,195 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTestQuery.............none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTimeout...............30000
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSource......................none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceClassName.............none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceJNDI..................none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceProperties............{password=<masked>}
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] exceptionOverrideClassName......none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckProperties...........{}
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckRegistry.............none
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] idleTimeout.....................600000
+2021-12-15 20:11:52,196 DEBUG com.zaxxer.hikari.HikariConfig [main] initializationFailTimeout.......1
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] isolateInternalQueries..........false
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] jdbcUrl.........................jdbc:mysql://littlecarrotstest1.c79g0ai4x3wt.ap-south-1.rds.amazonaws.com:3306/little_carrots_securityservice?useSSL=false
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] leakDetectionThreshold..........0
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] maxLifetime.....................1800000
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] maximumPoolSize.................10
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] metricRegistry..................none
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] metricsTrackerFactory...........none
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] minimumIdle.....................10
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] password........................<masked>
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] poolName........................"HikariPool-1"
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] readOnly........................false
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] registerMbeans..................false
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] scheduledExecutor...............none
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] schema..........................none
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] threadFactory...................internal
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] transactionIsolation............default
+2021-12-15 20:11:52,197 DEBUG com.zaxxer.hikari.HikariConfig [main] username........................"admin"
+2021-12-15 20:11:52,198 DEBUG com.zaxxer.hikari.HikariConfig [main] validationTimeout...............5000
+2021-12-15 20:11:52,198 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-15 20:11:53,073 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ed2f2f6
+2021-12-15 20:11:53,074 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-15 20:11:53,176 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-12-15 20:11:53,616 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d74692a
+2021-12-15 20:11:54,116 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c496311
+2021-12-15 20:11:54,527 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d1f5931
+2021-12-15 20:11:54,920 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c669c5e
+2021-12-15 20:11:55,469 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a307442
+2021-12-15 20:11:55,736 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://img.littlecarrots.com:2053/img2/v1/IMG13
+2021-12-15 20:11:55,736 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2021-12-15 20:11:55,959 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78280481
+2021-12-15 20:11:56,430 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30a2e6f0
+2021-12-15 20:11:56,860 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b580cd1
+2021-12-15 20:11:56,968 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2021-12-15 20:11:56,969 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2021-12-15 20:11:57,053 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/CT099
+2021-12-15 20:11:57,053 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2021-12-15 20:11:57,338 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69664fe2
+2021-12-15 20:11:57,338 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2021-12-15 20:11:58,549 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2021-12-15 20:11:58,549 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2021-12-15 20:11:58,789 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/pvp
+2021-12-15 20:11:58,789 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2021-12-15 20:11:59,185 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2021-12-15 20:11:59,185 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2021-12-15 20:11:59,342 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/iconmenu
+2021-12-15 20:11:59,342 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2021-12-15 20:11:59,703 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2021-12-15 20:11:59,703 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2021-12-15 20:11:59,907 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://localhost:8282/user
+2021-12-15 20:11:59,907 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2021-12-15 20:12:01,133 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2021-12-15 20:12:01,133 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2021-12-15 20:12:02,783 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:12:02,960 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 342 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:12:03,065 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:12:03,092 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:12:04,006 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Started LittleCarrotsInventorySecurityServiceApplicationTests in 14.37 seconds (JVM running for 15.241)
+2021-12-15 20:12:04,181 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@31dadd46, started on Wed Dec 15 20:11:49 IST 2021
+2021-12-15 20:12:04,313 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedException
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:966)
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:862)
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory$CloseSafeProducer.send(DefaultKafkaProducerFactory.java:756)
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:559)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:360)
+	at com.lc.sk.inventory.security.kafka.EmailProducer.pingService(EmailProducer.java:48)
+	at com.lc.sk.inventory.security.cache.ProductCacheLoader.runKafkaHit(ProductCacheLoader.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException: null
+	at java.lang.Object.wait(Native Method)
+	at org.apache.kafka.common.utils.SystemTime.waitObject(SystemTime.java:55)
+	at org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate(ProducerMetadata.java:119)
+	at org.apache.kafka.clients.producer.KafkaProducer.waitOnMetadata(KafkaProducer.java:1029)
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:883)
+	... 19 common frames omitted
+2021-12-15 20:12:04,473 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-15 20:12:04,474 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringContextShutdownHook] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-12-15 20:12:04,477 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ed2f2f6: (connection evicted)
+2021-12-15 20:12:04,485 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d74692a: (connection evicted)
+2021-12-15 20:12:04,485 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c496311: (connection evicted)
+2021-12-15 20:12:04,486 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d1f5931: (connection evicted)
+2021-12-15 20:12:04,486 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c669c5e: (connection evicted)
+2021-12-15 20:12:04,486 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a307442: (connection evicted)
+2021-12-15 20:12:04,487 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78280481: (connection evicted)
+2021-12-15 20:12:04,487 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30a2e6f0: (connection evicted)
+2021-12-15 20:12:04,487 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b580cd1: (connection evicted)
+2021-12-15 20:12:04,488 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69664fe2: (connection evicted)
+2021-12-15 20:12:04,488 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringContextShutdownHook] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-12-15 20:12:04,488 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-02-16 11:35:44,512 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Starting LittleCarrotsInventorySecurityServiceApplicationTests on SHEIKH-786 with PID 6776 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventorySecurityService)
+2022-02-16 11:35:44,514 DEBUG com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2022-02-16 11:35:44,514 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:35:44,542 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31dadd46
+2022-02-16 11:35:46,233 DEBUG com.zaxxer.hikari.HikariConfig [main] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@42a57993
+2022-02-16 11:35:46,405 DEBUG com.zaxxer.hikari.HikariConfig [main] HikariPool-1 - configuration:
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] allowPoolSuspension.............false
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] autoCommit......................true
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] catalog.........................none
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionInitSql...............none
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTestQuery.............none
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTimeout...............30000
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSource......................none
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceClassName.............none
+2022-02-16 11:35:46,408 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceJNDI..................none
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceProperties............{password=<masked>}
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] exceptionOverrideClassName......none
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckProperties...........{}
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckRegistry.............none
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] idleTimeout.....................600000
+2022-02-16 11:35:46,409 DEBUG com.zaxxer.hikari.HikariConfig [main] initializationFailTimeout.......1
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] isolateInternalQueries..........false
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] jdbcUrl.........................jdbc:mysql://localhost:3306/little_carrots_securityservice?useSSL=false
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] leakDetectionThreshold..........0
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] maxLifetime.....................1800000
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] maximumPoolSize.................10
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] metricRegistry..................none
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] metricsTrackerFactory...........none
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] minimumIdle.....................10
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] password........................<masked>
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] poolName........................"HikariPool-1"
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] readOnly........................false
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] registerMbeans..................false
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] scheduledExecutor...............none
+2022-02-16 11:35:46,410 DEBUG com.zaxxer.hikari.HikariConfig [main] schema..........................none
+2022-02-16 11:35:46,411 DEBUG com.zaxxer.hikari.HikariConfig [main] threadFactory...................internal
+2022-02-16 11:35:46,411 DEBUG com.zaxxer.hikari.HikariConfig [main] transactionIsolation............default
+2022-02-16 11:35:46,411 DEBUG com.zaxxer.hikari.HikariConfig [main] username........................"admin"
+2022-02-16 11:35:46,411 DEBUG com.zaxxer.hikari.HikariConfig [main] validationTimeout...............5000
+2022-02-16 11:35:46,411 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-16 11:35:46,566 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36f7d7b
+2022-02-16 11:35:46,567 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-16 11:35:46,668 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-02-16 11:35:46,675 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7531a576
+2022-02-16 11:35:46,679 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@340caf4d
+2022-02-16 11:35:46,684 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@572f8e1
+2022-02-16 11:35:46,689 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54235002
+2022-02-16 11:35:46,695 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c2f230e
+2022-02-16 11:35:46,701 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@506de890
+2022-02-16 11:35:46,707 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66ba4329
+2022-02-16 11:35:46,712 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@578ece14
+2022-02-16 11:35:46,717 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b80d0f6
+2022-02-16 11:35:46,717 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:35:48,641 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://img.littlecarrots.com:2053/img2/v1/IMG13
+2022-02-16 11:35:48,645 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:49,461 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:35:49,461 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:35:49,545 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/CT099
+2022-02-16 11:35:49,546 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:49,955 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:35:49,956 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:35:50,026 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/pvp
+2022-02-16 11:35:50,026 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:50,227 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:35:50,228 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:35:50,384 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/iconmenu
+2022-02-16 11:35:50,385 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:50,605 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:35:50,606 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:35:50,807 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://3.110.135.233:8282/user
+2022-02-16 11:35:50,808 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:51,079 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:35:51,080 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:35:51,737 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:35:51,877 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 342 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:35:51,933 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:35:51,953 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:35:52,537 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplicationTests [main] Started LittleCarrotsInventorySecurityServiceApplicationTests in 8.244 seconds (JVM running for 9.123)
+2022-02-16 11:35:52,538 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] HTTP GET https://img.littlecarrots.com:2053/img2/v1/IMG13
+2022-02-16 11:35:52,539 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:35:52,678 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@31dadd46, started on Wed Feb 16 11:35:44 IST 2022
+2022-02-16 11:35:52,742 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-02-16 11:35:52,742 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringContextShutdownHook] HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:35:52,744 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36f7d7b: (connection evicted)
+2022-02-16 11:35:52,751 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7531a576: (connection evicted)
+2022-02-16 11:35:52,751 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@340caf4d: (connection evicted)
+2022-02-16 11:35:52,751 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@572f8e1: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54235002: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c2f230e: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@506de890: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66ba4329: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@578ece14: (connection evicted)
+2022-02-16 11:35:52,752 DEBUG com.zaxxer.hikari.pool.PoolBase [HikariPool-1 connection closer] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b80d0f6: (connection evicted)
+2022-02-16 11:35:52,753 DEBUG com.zaxxer.hikari.pool.HikariPool [SpringContextShutdownHook] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-02-16 11:35:52,753 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-02-16 11:36:56,048 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplication [main] Starting LittleCarrotsInventorySecurityServiceApplication vMVP-V2.0.0 on SHEIKH-786 with PID 15964 (D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventorySecurityService\target\LittleCarrotsInventorySecurityService-MVP-V2.0.0.jar started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsInventorySecurityService)
+2022-02-16 11:36:56,050 DEBUG com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplication [main] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2022-02-16 11:36:56,050 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplication [main] The following profiles are active: prod
+2022-02-16 11:36:59,143 ERROR org.apache.coyote.http11.Http11NioProtocol [main] The upgrade handler [org.apache.coyote.http2.Http2Protocol] for [h2] only supports upgrade via ALPN but has been configured for the ["https-jsse-nio-8443"] connector that does not support ALPN.
+2022-02-16 11:36:59,218 DEBUG org.springframework.web.context.ContextLoader [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-16 11:36:59,218 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 3092 ms
+2022-02-16 11:36:59,381 DEBUG com.zaxxer.hikari.HikariConfig [main] Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.loader.LaunchedURLClassLoader@5010be6
+2022-02-16 11:36:59,649 DEBUG com.zaxxer.hikari.HikariConfig [main] HikariPool-1 - configuration:
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] allowPoolSuspension.............false
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] autoCommit......................true
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] catalog.........................none
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionInitSql...............none
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTestQuery.............none
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTimeout...............30000
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSource......................none
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceClassName.............none
+2022-02-16 11:36:59,651 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceJNDI..................none
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceProperties............{password=<masked>}
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] driverClassName................."com.mysql.cj.jdbc.Driver"
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] exceptionOverrideClassName......none
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckProperties...........{}
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckRegistry.............none
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] idleTimeout.....................600000
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] initializationFailTimeout.......1
+2022-02-16 11:36:59,652 DEBUG com.zaxxer.hikari.HikariConfig [main] isolateInternalQueries..........false
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] jdbcUrl.........................jdbc:mysql://localhost:3306/little_carrots_securityservice?useSSL=false
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] leakDetectionThreshold..........0
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] maxLifetime.....................1800000
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] maximumPoolSize.................10
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] metricRegistry..................none
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] metricsTrackerFactory...........none
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] minimumIdle.....................10
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] password........................<masked>
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] poolName........................"HikariPool-1"
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] readOnly........................false
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] registerMbeans..................false
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] scheduledExecutor...............none
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] schema..........................none
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] threadFactory...................internal
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] transactionIsolation............default
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] username........................"admin"
+2022-02-16 11:36:59,653 DEBUG com.zaxxer.hikari.HikariConfig [main] validationTimeout...............5000
+2022-02-16 11:36:59,653 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-16 11:36:59,855 DEBUG com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45efd90f
+2022-02-16 11:36:59,857 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-16 11:36:59,961 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-02-16 11:36:59,968 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74212cce
+2022-02-16 11:36:59,973 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351c26f5
+2022-02-16 11:36:59,977 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e3f0c0
+2022-02-16 11:36:59,983 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5533d9ba
+2022-02-16 11:36:59,988 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78818c16
+2022-02-16 11:36:59,992 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@517de028
+2022-02-16 11:36:59,998 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6492cb6d
+2022-02-16 11:37:00,002 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b265dc4
+2022-02-16 11:37:00,008 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@720779c8
+2022-02-16 11:37:00,008 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:37:03,321 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://img.littlecarrots.com:2053/img2/v1/IMG13
+2022-02-16 11:37:03,326 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:03,698 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:37:03,700 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:03,803 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/CT099
+2022-02-16 11:37:03,803 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:04,106 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:37:04,106 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:04,201 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/pvp
+2022-02-16 11:37:04,202 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:04,389 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:37:04,389 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:04,595 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://13.232.222.77:8383/iconmenu
+2022-02-16 11:37:04,595 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:04,887 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:37:04,888 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:05,054 DEBUG org.springframework.web.client.RestTemplate [main] HTTP GET https://3.110.135.233:8282/user
+2022-02-16 11:37:05,054 DEBUG org.springframework.web.client.RestTemplate [main] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:05,347 DEBUG org.springframework.web.client.RestTemplate [main] Response 202 ACCEPTED
+2022-02-16 11:37:05,347 DEBUG org.springframework.web.client.RestTemplate [main] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:06,159 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:37:06,300 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 342 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:37:06,377 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:37:06,406 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:37:07,257 INFO com.lc.sk.inventory.security.LittleCarrotsInventorySecurityServiceApplication [main] Started LittleCarrotsInventorySecurityServiceApplication in 11.634 seconds (JVM running for 12.153)
+2022-02-16 11:37:07,288 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] HTTP GET https://img.littlecarrots.com:2053/img2/v1/IMG13
+2022-02-16 11:37:07,289 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:07,585 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Response 202 ACCEPTED
+2022-02-16 11:37:07,586 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:07,615 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] HTTP GET https://13.232.222.77:8383/CT099
+2022-02-16 11:37:07,615 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:07,943 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Response 202 ACCEPTED
+2022-02-16 11:37:07,944 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:08,025 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] HTTP GET https://13.232.222.77:8383/pvp
+2022-02-16 11:37:08,026 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Accept=[text/plain, application/json, application/*+json, */*]
+2022-02-16 11:37:08,212 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Response 202 ACCEPTED
+2022-02-16 11:37:08,212 DEBUG org.springframework.web.client.RestTemplate [scheduling-1] Reading to [java.lang.String] as "application/json"
+2022-02-16 11:37:29,978 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:37:29,978 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:37:59,980 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:37:59,980 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:38:29,985 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:38:29,985 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:38:59,997 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:38:59,997 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:39:30,012 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:39:30,012 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:40:00,020 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:40:00,021 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:40:30,034 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:40:30,034 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:41:00,050 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:41:00,050 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:41:30,056 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:41:30,056 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:42:00,068 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:42:00,068 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:42:30,072 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:42:30,072 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:43:00,081 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:43:00,081 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:43:15,358 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-16 11:43:15,367 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] Detected StandardServletMultipartResolver
+2022-02-16 11:43:15,439 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-16 11:43:15,439 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] Completed initialization in 81 ms
+2022-02-16 11:43:15,472 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] POST "/FEP/V1/SEARCH000/0/9", parameters={}
+2022-02-16 11:43:15,484 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-2] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchDataCount(SearchBean, int, int)
+2022-02-16 11:43:15,544 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-2] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[accessories], price=[], age=[], fashion=[accessories], special=[]]]
+2022-02-16 11:43:15,568 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-2] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:43:15,585 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-2] Writing [com.lc.sk.inventory.security.beans.PageCountBean@300475a5]
+2022-02-16 11:43:15,608 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-2] Completed 202 ACCEPTED
+2022-02-16 11:43:30,097 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:43:30,097 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:44:00,103 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:44:00,103 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:44:00,705 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-3] POST "/FEP/V1/SEARCH001/0/9", parameters={}
+2022-02-16 11:44:00,706 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-3] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchData(SearchBean, int, int)
+2022-02-16 11:44:00,708 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-3] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[accessories], price=[], age=[], fashion=[accessories], special=[]]]
+2022-02-16 11:44:00,713 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-3] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:44:00,714 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-3] Writing [[ProductFullDetailsWithImage [productid=115, descriptionid=115, batchid=6, genderid=G, categoryid=17 (truncated)...]
+2022-02-16 11:44:00,727 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-3] Completed 202 ACCEPTED
+2022-02-16 11:44:30,116 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:44:30,116 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:44:33,720 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-4] POST "/FEP/V1/SEARCH000/0/9", parameters={}
+2022-02-16 11:44:33,721 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-4] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchDataCount(SearchBean, int, int)
+2022-02-16 11:44:33,722 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-4] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[Budget&Nightwear], price=[], age=[], fashion=[Budget&Nightwear], sp (truncated)...]
+2022-02-16 11:44:33,727 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-4] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:44:33,727 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-4] Writing [com.lc.sk.inventory.security.beans.PageCountBean@1563152f]
+2022-02-16 11:44:33,728 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-4] Completed 202 ACCEPTED
+2022-02-16 11:44:51,939 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-5] POST "/FEP/V1/SEARCH001/0/9", parameters={}
+2022-02-16 11:44:51,940 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-5] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchData(SearchBean, int, int)
+2022-02-16 11:44:51,940 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-5] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[Budget&Nightwear], price=[], age=[], fashion=[Budget&Nightwear], sp (truncated)...]
+2022-02-16 11:44:51,945 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-5] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:44:51,945 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-5] Writing [[ProductFullDetailsWithImage [productid=1060, descriptionid=1048, batchid=1, genderid=G, categoryid= (truncated)...]
+2022-02-16 11:44:51,951 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-5] Completed 202 ACCEPTED
+2022-02-16 11:45:00,120 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:45:00,120 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:45:20,099 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-1] POST "/FEP/V1/SEARCH000/0/9", parameters={}
+2022-02-16 11:45:20,099 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-1] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchDataCount(SearchBean, int, int)
+2022-02-16 11:45:20,100 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-1] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[Smocking&Organic&Casual], price=[], age=[], fashion=[Smocking&Organ (truncated)...]
+2022-02-16 11:45:20,103 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-1] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:45:20,103 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-1] Writing [com.lc.sk.inventory.security.beans.PageCountBean@74b0bafa]
+2022-02-16 11:45:20,104 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-1] Completed 202 ACCEPTED
+2022-02-16 11:45:29,342 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-6] POST "/FEP/V1/SEARCH001/0/9", parameters={}
+2022-02-16 11:45:29,343 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-6] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchData(SearchBean, int, int)
+2022-02-16 11:45:29,343 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-6] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[Smocking&Organic&Casual], price=[], age=[], fashion=[Smocking&Organ (truncated)...]
+2022-02-16 11:45:29,346 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-6] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:45:29,347 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-6] Writing [[ProductFullDetailsWithImage [productid=1029, descriptionid=1017, batchid=15, genderid=G, categoryid (truncated)...]
+2022-02-16 11:45:29,348 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-6] Completed 202 ACCEPTED
+2022-02-16 11:45:30,132 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:45:30,132 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:45:56,178 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-7] POST "/FEP/V1/SEARCH001/0/9", parameters={}
+2022-02-16 11:45:56,180 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [https-jsse-nio-8443-exec-7] Mapped to com.lc.sk.inventory.security.service.FrontEndPoint#getSearchData(SearchBean, int, int)
+2022-02-16 11:45:56,181 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [https-jsse-nio-8443-exec-7] Read "application/json;charset=UTF-8" to [SearchBean [gender=[], category=[Ethnic&Occasion], price=[], age=[], fashion=[Ethnic&Occasion], spec (truncated)...]
+2022-02-16 11:45:56,186 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-7] Using 'application/json', given [*/*] and supported [application/json]
+2022-02-16 11:45:56,186 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [https-jsse-nio-8443-exec-7] Writing [[ProductFullDetailsWithImage [productid=101, descriptionid=103, batchid=6, genderid=G, categoryid=14 (truncated)...]
+2022-02-16 11:45:56,188 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-7] Completed 202 ACCEPTED
+2022-02-16 11:46:00,148 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:46:00,148 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:46:30,156 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:46:30,156 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-02-16 11:47:00,163 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-16 11:47:00,163 DEBUG com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Fill pool skipped, pool is at sufficient level.

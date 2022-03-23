@@ -1,0 +1,41 @@
+2021-12-15 20:07:28,566 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Starting LittleCarrotsEMailServiceApplicationTests on SHEIKH-786 with PID 3096 (started by masta in E:\LITTLECARROTS_CODE\MainStream\GIT\lil_invetory_services\LittleCarrotsEMailService)
+2021-12-15 20:07:28,568 DEBUG com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2021-12-15 20:07:28,568 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] The following profiles are active: prod
+2021-12-15 20:07:28,595 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a
+2021-12-15 20:07:38,448 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-15 20:07:38,542 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 4 mappings in 'requestMappingHandlerMapping'
+2021-12-15 20:07:38,667 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-15 20:07:38,714 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-15 20:07:39,933 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Started LittleCarrotsEMailServiceApplicationTests in 11.644 seconds (JVM running for 12.586)
+2021-12-15 20:07:40,136 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a, started on Wed Dec 15 20:07:28 IST 2021
+2022-02-16 11:21:59,996 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Starting LittleCarrotsEMailServiceApplicationTests on SHEIKH-786 with PID 15160 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsEMailService)
+2022-02-16 11:21:59,998 DEBUG com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-02-16 11:21:59,998 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:22:00,027 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a
+2022-02-16 11:22:05,564 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:22:05,664 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 4 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:22:05,741 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:22:05,769 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:22:06,787 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Started LittleCarrotsEMailServiceApplicationTests in 7.01 seconds (JVM running for 7.8)
+2022-02-16 11:22:07,072 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a, started on Wed Feb 16 11:22:00 IST 2022
+2022-02-16 11:33:15,797 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Starting LittleCarrotsEMailServiceApplicationTests on SHEIKH-786 with PID 13780 (started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsEMailService)
+2022-02-16 11:33:15,799 DEBUG com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-02-16 11:33:15,799 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] The following profiles are active: prod
+2022-02-16 11:33:15,824 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a
+2022-02-16 11:33:22,174 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:33:22,414 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 4 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:33:22,574 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:33:22,612 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:33:23,374 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplicationTests [main] Started LittleCarrotsEMailServiceApplicationTests in 7.81 seconds (JVM running for 8.623)
+2022-02-16 11:33:23,516 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@5460cf3a, started on Wed Feb 16 11:33:15 IST 2022
+2022-02-16 11:35:02,064 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplication [main] Starting LittleCarrotsEMailServiceApplication vMVP-V2.0.0 on SHEIKH-786 with PID 13968 (D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsEMailService\target\LittleCarrotsEMailService-MVP-V2.0.0.jar started by masta in D:\LITTLECARROTS\LITTLECARROTS_CODE\04JAN2022_V2_FEATURE\lil_invetory_services\LittleCarrotsEMailService)
+2022-02-16 11:35:02,066 DEBUG com.lc.sk.notification.LittleCarrotsEMailServiceApplication [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-02-16 11:35:02,066 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplication [main] The following profiles are active: prod
+2022-02-16 11:35:03,809 ERROR org.apache.coyote.http11.Http11NioProtocol [main] The upgrade handler [org.apache.coyote.http2.Http2Protocol] for [h2] only supports upgrade via ALPN but has been configured for the ["https-jsse-nio-8281"] connector that does not support ALPN.
+2022-02-16 11:35:03,851 DEBUG org.springframework.web.context.ContextLoader [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-16 11:35:03,851 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 1746 ms
+2022-02-16 11:35:07,019 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-16 11:35:07,110 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 4 mappings in 'requestMappingHandlerMapping'
+2022-02-16 11:35:07,183 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-16 11:35:07,205 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-16 11:35:08,827 INFO com.lc.sk.notification.LittleCarrotsEMailServiceApplication [main] Started LittleCarrotsEMailServiceApplication in 7.06 seconds (JVM running for 7.461)
